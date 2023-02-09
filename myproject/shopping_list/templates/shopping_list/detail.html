@@ -1,0 +1,8 @@
+{% extends 'base.html' %} {% load django_bootstrap5 %} {% block content %}
+
+<h2>Item Name:</h2>
+<p>{{item.itemName}}</p>
+
+<h2>Item price:</h2>
+<p>£{{item.itemPrice}}</p>
+{% endblock %}
